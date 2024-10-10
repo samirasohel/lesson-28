@@ -6,14 +6,24 @@
     <title>activity 1</title>
 </head>
 <body>
-    <h3>Type conversation</h3>
+    <h3>Type conversation,search and replace </h3>
     <p id="p1"></p>
     <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <p id="p5"></p>
     <script>
         var a=10;
         var b=30;
+        var str="wlcm to codingal.";
+        var search_pos=str.search("codingal");
+        var text=str.replace("wlcm","Welcome");
         document.getElementById("p1").innerHTML=a+b;
         document.getElementById("p2").innerHTML=String(a)+String(b);
+        document.getElementById("p3").innerHTML=search_pos;
+        document.getElementById("p4").innerHTML=str;
+        document.getElementById("p5").innerHTML=text;
+
     </script>
 </body>
 </html>
