@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>activity 2</title>
+</head>
+<body>
+    <h3>Error Handling in js</h3>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        function add(a,b){
+            return a+b;
+        }
+        try{
+            document.getElementById("p1").innerHTML=add (10,20);
+
+        }
+        catch(e){
+         document.getElementById("p2").innerHTML=e.message;
+        }
+    </script>
+</body>
+</html>
