@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>activity 3</title>
+</head>
+<body>
+    <h3>Arrow function in js</h3>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        //normal function
+        var add=function add(a,b){
+            return a+b;
+        }
+        //arrow function
+        var prod=(x,y)=>x*y;
+        document.getElementById("p1").innerHTML=add(10,3);
+        document.getElementById("p2").innerHTML=prod(20,3);
+    </script>
+</body>
+</html>
